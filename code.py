@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 import data as tt
 
-TOKEN: Final = '6142493838:AAHgItNj9JrTVqUMbrurKWnmy0DYcAfiHZ8'
-BOT_USERNAME: Final = '@bodysoda'
+TOKEN: Final = ' '
+BOT_USERNAME: Final = ' '
 
 def handle_response(text: str) -> str:
     result = tt.bot(text)
